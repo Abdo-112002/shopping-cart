@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>simple-Ecommerce</title>
+        <link rel="stylesheet" href="css/e-commerce.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/hover-min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+
+       
+       
+        <header> <!-- start header -->
+                
+                    <div class="header-content"> <!-- header-content -->
+
+                        <div>
+                            <a href="index.html"> <img src="images/logo.png" alt="logo" class="logo"></a>
+                        </div>
+
+
+                        <div class="nav-list-icon ">
+                            <span class="material-icons">
+                                reorder
+                            </span>
+                        </div>
+
+                            <ul class="list-unstyled">
+                                <div class="close-list">
+                                    <span class="material-icons">
+                                        close
+                                    </span>
+                                </div>
+
+                                <li class="link-item dropdowen">
+                                    <a href="#">furniture</a>
+                                    <div class="dropdowen-mnue">
+                                        <ul>
+                                            <li class="hvr-buzz-out"><a href="#">armoires</a></li>
+                                            <li><a href="#" class="hvr-pulse">study table</a></li>
+                                            <li><a href="#" class="hvr-pulse">plastic chair</a></li>
+                                            <li><a href="#" class="hvr-pulse">wardrobes</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li class="hvr-buzz-out"><a href="#">armoires</a></li>
+                                            <li><a href="#" class="hvr-pulse">study table</a></li>
+                                            <li><a href="#" class="hvr-pulse">plastic chair</a></li>
+                                            <li><a href="#" class="hvr-pulse">wardrobes</a></li>
+                                        </ul>
+                                        <ul>
+                                            <li class="hvr-buzz-out"><a href="#">armoires</a></li>
+                                            <li><a href="#" class="hvr-pulse">study table</a></li>
+                                            <li><a href="#" class="hvr-pulse">plastic chair</a></li>
+                                            <li><a href="#" class="hvr-pulse">wardrobes</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="link-item"><a href="#">armoires</a></li>
+                                <li class="link-item"><a href="#">study table</a></li>
+                                <li class="link-item"><a href="#">plastic chair</a></li>
+                                <li class="link-item"><a href="#">wardrobes</a></li>
+                                <li class="link-item"><a href="#">more</a></li>
+                            </ul><!-- ./list-unstyled --> 
+
+                        <div class="login">
+                            <ul class="login-list">
+                                <li class="li-search">
+                                    <div class="search-input">
+                                        <input type="text" placeholder="write here to search">
+                                    </div><!-- ./search-input -->
+                                    <i class="fa fa-search fa-2x hvr-wobble-top search-icon"></i>
+                                </li>
+                                <li><i class="fa fa-user-o fa-2x" aria-hidden="true"></i></li>
+                                <li class=" hvr-wobble-horizontal"><i id="card" class="fa fa-shopping-basket fa-2x" aria-hidden="true">
+                                    <span id="product-counter">0</span>
+                                </i></li>
+                            </ul>
+                        </div> <!-- ./ login-->
+                        
+
+                </div><!-- ./header-content -->
+    
+                <div class="slider" id="show"> <!-- start slider -->
+                    <div class="img-slid">
+
+                    </div>
+                    <span class="material-icons" id="right">arrow_forward_ios</span>
+                    <span class="material-icons" id="left">arrow_back_ios</span>
+                </div><!-- ./slider -->
+
+        </header> <!-- ./header -->
+       
+
+        <section class="category"><!--category  -->
+
+            <div class="section-header">
+                <h2 class="title animate__animated animate__bounce">special category</h2>
+                <span class="line"></span>
+            </div><!-- ./section-header -->
+
+            <div class="product"><!-- product -->
+
+                    <div class="product-item hvr-curl-top-right ">
+                            <img src="images/category-banner1.jpg" class="img"  alt="product">
+                            <div class="social">
+                                <a id="show-product" href="show-product.html" class="hvr-pop"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="hvr-pop"><i class="fa fa-heart-o" ></i></a>
+                                <a class="buy-btn" href="#" class="hvr-pop"><i class="fa fa-cart-plus" ></i></a>
+                            </div>
+                            <h5 class="product-desc">most popular</h5>
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                    </div><!-- ./product-item 1 -->
+
+                    <div class="product-item hvr-curl-top-right ">
+                            <img src="images/category-banner2.jpg" class="img"  alt="product">
+                            <div class="social">
+                                <a id="show-product" href="show-product.html" class="hvr-pop"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="#" class="hvr-pop"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                <a class="buy-btn" href="#" class="hvr-pop"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+
+                            <h5 class="product-desc">most popular</h5>
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                    </div><!-- ./product-item 2 -->
+
+                    <div class="product-item hvr-curl-top-right ">
+                
+                            <img src="images/category-banner3.jpg"  class="img"  alt="product">
+                            <div class="social">
+                                <a id="show-product" href="show-product.html" class="hvr-pop"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="#" class="hvr-pop"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                <a class="buy-btn" href="#" class="hvr-pop"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                    
+                            <h5 class="product-desc">most popular</h5>
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                    </div><!-- ./product-item 3 -->
+
+                    <div class="product-item hvr-curl-top-right">
+                
+                            <img src="images/category-banner4.jpg"  class="img"  alt="product">
+                            <div class="social">
+                                <a id="show-product" href="show-product.html" class="hvr-pop"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="#" class="hvr-pop"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                <a class="buy-btn" href="#" class="hvr-pop"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                    
+                            <h5 class="product-desc">most popular</h5>
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                    </div><!-- ./product-item 4 -->
+
+                    <div class="product-item hvr-curl-top-right">
+                
+                            <img src="images2/ashraf.jpeg" class="img"   alt="product">
+                            <div class="social">
+                                <a id="show-product" href="show-product.html" class="hvr-pop"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="#" class="hvr-pop"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                <a class="buy-btn" href="#" class="hvr-pop"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                    
+                            <h5 class="product-desc">most popular</h5>
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                    </div><!-- ./product-item 5 -->
+
+                    <div class="product-item hvr-curl-top-right">
+                
+                            <img src="images/product2.jpg" class="img"   alt="product">
+                            <div class="social">
+                                <a id="show-product" href="show-product.html" class="hvr-pop"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="#" class="hvr-pop"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                <a class="buy-btn" href="#" class="hvr-pop"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                    
+                            <h5 class="product-desc">most popular</h5>
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                    </div><!-- ./product-item 6 -->
+
+                    <div class="product-item hvr-curl-top-right">
+                
+                            <img src="images/cat2.jpg" class="img"   alt="product">
+                            <div class="social">
+                                <a id="show-product" href="show-product.html" class="hvr-pop"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="#" class="hvr-pop"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                <a class="buy-btn" href="#" class="hvr-pop"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                        
+                            <h5 class="product-desc">most popular</h5>
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                    </div><!-- ./product-item 7 -->
+
+                    <div class="product-item hvr-curl-top-right">
+                
+                            <img src="images/cat5.jpg"  class="img"  alt="product">
+                            <div class="social">
+                                <a id="show-product" href="show-product.html" class="hvr-pop"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                <a href="#" class="hvr-pop"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                                <a class="buy-btn" href="#" class="hvr-pop"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                    
+                            <h5 class="product-desc">most popular</h5>
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                    </div><!-- ./product-item 8 -->
+
+                </div><!-- ./product -->
+
+                <ul class="option">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#" class="hvr-wobble-horizontal"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+                </ul><!-- ./option -->
+
+                <div class="discount">
+                    <div class="desc">
+                        <div class="top">
+                            <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
+                            <h3>penelope astid</h3>
+                            <span class="same">(marketing)</span>
+                        </div><!-- ./top -->
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora totam, quae neque doloremque culpa quam minus eum tenetur dolore suscipit aspernatur id ipsa, iste dicta! Suscipit, officiis magnam? Animi cum, consequatur voluptatum dolorem aut ullam sapiente! Soluta, excepturi alias! Vero quod vel velit ipsa aliquid id ipsum hic molestiae! Esse?
+                        </p>
+                        <div class="bollets">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div><!-- ./desc -->
+                    <div class="discount-item">
+                        <img src="images/cms-banner-1.jpg" alt="">
+                        <div class="item-info">
+                            <p>30% discount</p>
+                            <h3>designing interiro</h3>
+                        </div> 
+                    </div>
+                    <div class="discount-item">
+                        <img src="images/cms-banner-2.jpg" alt="">
+                        <div class="item-info">
+                            <p>20% discount</p>
+                            <h3>wooden study table</h3>
+                        </div>
+                    </div>
+                </div><!-- ./discount -->
+
+                <div class="sprite">
+                    <div class="item item1">
+                        <div class="box"></div>
+                        <div class="item-info">
+                            <h4>free delivery</h4>
+                            <p>free shipping on all order</p>
+                        </div><!-- ./info -->
+                    </div> <!-- ./item 1 -->
+        
+                    <div class="item item2">
+                        <div class="box"></div>
+                        <div class="item-info">
+                            <h4>money return</h4>
+                            <p>back guarantee in 7 day</p>
+                        </div><!-- ./info -->
+                    </div> <!-- ./item 2 -->
+        
+                    <div class="item item3">
+                        <div class="box"></div>
+                        <div class="item-info">
+                            <h4>online support</h4>
+                            <p>support 24 hours a day</p>
+                        </div><!-- ./info -->
+                    </div> <!-- ./item 3 -->
+        
+                    <div class="item item4">
+                        <div class="box"></div>
+                        <div class="item-info">
+                            <h4>memper discount</h4>
+                            <p>on every order over $130.00</p>
+                        </div><!-- ./info -->
+                    </div> <!-- ./item 4 -->
+        
+                    <div class="item item5">
+                        <div class="box"></div>
+                        <div class="item-info">
+                            <h4>return policy</h4>
+                            <p>end within 30 days</p>
+                        </div><!-- ./info -->
+                    </div> <!-- ./item 5 -->
+        
+                </div><!-- ./sprite -->
+           
+
+        </section><!-- ./category -->
+
+        <!-- start about-featured-->
+        <div class="about-featured">
+            <div class="about-info">
+                <div class="about-img ">
+                    <img src="images/exclusive.png" alt="" class="hvr-grow-rotate">
+                </div><!-- ./about-img -->
+
+            <div class="information">
+                    <div class="text">
+                        <div class="date">
+                            <strong>28</strong>
+                            <h4>february, 2021</h4>
+                        </div><!-- ./date -->
+                        <h4>necessitatibus saepe eveniet</h4>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nemo, quibusdam placeat quo libero accusamus? Sed, laboriosam obcaecati esse, placeat culpa praesentium tenetur veniam incidunt corporis quisquam molestias minus? Corporis delectus perspiciatis harum neque sint, doloribus commodi labore, ipsum fuga laboriosam tempore porro, dolorum architecto reiciendis earum pariatur? Eos eius nesciunt ex placeat sed repellat optio ullam corrupti fugit ea?
+                    </p>
+                    <div class="bollets">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+            </div>
+            </div><!-- ./about-info -->
+        </div><!-- ./about-featured -->
+
+
+        <!-- start featured-products -->
+        <section class="featured-products">
+                <div class="section-header">
+                    <h2 class="title animate__backInDown">featured products</h2>
+                    <span class="line"></span>
+                </div><!-- ./section-header -->
+
+                <ul class="product-list">
+                    <li ><a href="#">wooden chair</a></li>
+                    <li ><a href="#">plastic chair</a></li>
+                    <li ><a href="#">study table</a></li>
+                    <li ><a href="#">smart device</a></li>
+                </ul><!-- ./product-list -->
+
+                <div class="product-items">
+                    <div class="product-item">
+                        <div class="product-img">
+                            <img src="images/chair2.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="images/chair4.jpg" class="img" alt="">
+                                <ul class="social-icon">
+                                    <li id="show-product"><a  href="show-product.html" class="hvr-pop"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#" class="hvr-pop"><i class="fa fa-heart-o"></i></a></li>
+                                    <li class="buy-btn" ><a href="#" class="hvr-pop"><i class="fa fa-cart-plus"></i></a></li>
+                                </ul><!-- ./icon -->
+                            </div><!-- ./product-overlay -->
+                        </div><!-- ./product-img -->
+                        <ul class="star star1">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star-half-o"></i></li>
+                        </ul><!-- ./star -->
+                        <div class="product-info">
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                        </div><!-- ./ingo -->
+                    </div><!-- ./product-item 1-->
+
+                    <div class="product-item">
+                        <div class="product-img">
+                            <img src="images/chair1.jpg"  alt="">
+                            <div class="product-overlay">
+                                <img src="images/chair5.jpg"   class="img" alt="">
+                                <ul class="social-icon">
+                                    <li id="show-product"><a  href="show-product.html" class="hvr-pop"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#" class="hvr-pop"><i class="fa fa-heart-o"></i></a></li>
+                                    <li class="buy-btn" ><a href="#" class="hvr-pop"><i class="fa fa-cart-plus"></i></a></li>
+                                </ul><!-- ./icon -->
+                            </div><!-- ./product-overlay -->
+                        </div><!-- ./product-img -->
+                        <ul class="star star2">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul><!-- ./star -->
+                        <div class="product-info">
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                        </div><!-- ./ingo -->
+                    </div><!-- ./product-item 2-->
+
+                    <div class="product-item ">
+                        <div class="product-img">
+                            <img src="images/chair3.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="images/chair6.jpg"   class="img" alt="">
+                                <ul class="social-icon">
+                                    <li id="show-product"><a  href="show-product.html" class="hvr-pop"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#" class="hvr-pop"><i class="fa fa-heart-o"></i></a></li>
+                                    <li class="buy-btn" ><a href="#" class="hvr-pop"><i class="fa fa-cart-plus"></i></a></li>
+                                </ul><!-- ./icon -->
+                            </div><!-- ./product-overlay -->
+                        </div><!-- ./product-img -->
+                        <ul class="star star3">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul><!-- ./star -->
+                        <div class="product-info">
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                        </div><!-- ./ingo -->
+                    </div><!-- ./product-item 3-->
+
+                    <div class="product-item ">
+                        <div class="product-img">
+                            <img src="images/gallery-1.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="images/gallery-2.jpg"  class="img"  alt="">
+                                <ul class="social-icon">
+                                    <li id="show-product"><a  href="show-product.html" class="hvr-pop"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#" class="hvr-pop"><i class="fa fa-heart-o"></i></a></li>
+                                    <li class="buy-btn" ><a href="#" class="hvr-pop"><i class="fa fa-cart-plus"></i></a></li>
+                                </ul><!-- ./icon -->
+                            </div><!-- ./product-overlay -->
+                        </div><!-- ./product-img -->
+                        <ul class="star star3">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul><!-- ./star -->
+                        <div class="product-info">
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                        </div><!-- ./ingo -->
+                    </div><!-- ./product-item 4-->
+
+                    <div class="product-item ">
+                        <div class="product-img">
+                            <img src="images/cat4.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="images/cat5.jpg"   class="img" alt="">
+                                <ul class="social-icon">
+                                    <li id="show-product"><a  href="show-product.html" class="hvr-pop"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#" class="hvr-pop"><i class="fa fa-heart-o"></i></a></li>
+                                    <li class="buy-btn" ><a href="#" class="hvr-pop"><i class="fa fa-cart-plus"></i></a></li>
+                                </ul><!-- ./icon -->
+                            </div><!-- ./product-overlay -->
+                        </div><!-- ./product-img -->
+                        <ul class="star star3">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul><!-- ./star -->
+                        <div class="product-info">
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                        </div><!-- ./ingo -->
+                    </div><!-- ./product-item 5-->
+
+                    <div class="product-item ">
+                        <div class="product-img">
+                            <img src="images/cat2.jpg" alt="">
+                            <div class="product-overlay">
+                                <img src="images/product6.jpg"  class="img"  alt="">
+                                <ul class="social-icon">
+                                    <li id="show-product"><a  href="show-product.html" class="hvr-pop"><i class="fa fa-eye"></i></a></li>
+                                    <li><a href="#" class="hvr-pop"><i class="fa fa-heart-o"></i></a></li>
+                                    <li class="buy-btn"><a href="#" class="hvr-pop"><i class="fa fa-cart-plus"></i></a></li>
+                                </ul><!-- ./icon -->
+                            </div><!-- ./product-overlay -->
+                        </div><!-- ./product-img -->
+                        <ul class="star star3">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul><!-- ./star -->
+                        <div class="product-info">
+                            <h4 class="product-title">modren chair collection</h4>
+                            <span class="price"><del>200$</del></span>
+                            <span class="new-price">170$</span>
+                        </div><!-- ./ingo -->
+                    </div><!-- ./product-item 6-->
+                </div><!-- ./product-items -->
+                
+                <ul class="option">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#" class="hvr-wobble-horizontal"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+                </ul><!-- ./option -->
+
+        </section><!-- ./featured-product -->
+
+
+
+        <section class="prand">
+            <div class="prand-img hvr-buzz-out">
+                <img src="images/client1.png" alt="">
+            </div>
+
+            <div class="prand-img hvr-buzz-out">
+                <img src="images/client2.png" alt="">
+            </div>
+
+            <div class="prand-img hvr-buzz-out">
+                <img src="images/client3.png" alt="">
+            </div>
+
+            <div class="prand-img hvr-buzz-out">
+                <img src="images/client4.png" alt="">
+            </div>
+
+            <div class="prand-img hvr-buzz-out">
+                <img src="images/client5.png" alt="">
+            </div>
+
+            <div class="prand-img hvr-buzz-out">
+                <img src="images/client6.png" alt="">
+            </div>
+        </section><!-- ./prand -->
+
+
+        <footer>
+            <div class="logo-footer">
+                <img src="images/footer-logo.png" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dicta distinctio velit iste minus quos quas maxime atque ipsum molestias itaque fugiat voluptatum cum quibusdam fugit, asperiores possimus cumque unde!
+                </p>
+                <img src="images/cms-footer-1.png" alt="">
+                <img src="images/cms-footer-2.png" alt="">
+            </div><!-- ./logo -->
+
+            <ul class="list-footer">
+                <h3>information</h3>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">delivery information</a></li>
+                <li><a href="#">privacy</a></li>
+                <li><a href="#">terms & conditlons</a></li>
+                <li><a href="#">site map</a></li>
+            </ul><!-- ./list-footer 1 -->
+
+            <ul class="list-footer">
+                <h3>my account</h3>
+                <li><a href="#">my account</a></li>
+                <li><a href="#">prder history</a></li>
+                <li><a href="#">wish list</a></li>
+                <li><a href="#">newseletter</a></li>
+                <li><a href="#">relurns</a></li>
+            </ul><!-- ./list-footer 2 -->
+
+            <div class="subscribe">
+                <h3>subscribe now</h3>
+                <div class="email">
+                    <input type="email" placeholder="Enter Your Email">
+                    <i class="fa fa-paper-plane-o"></i>
+                </div><!-- ./email -->
+                <ul class="icon-footer">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul><!-- ./icon-footer -->
+
+            </div><!-- ./subscribe -->
+
+        </footer>
+
+
+        <!-- create shopping card page -->
+        <div class="shopping-page" dir="rtl">
+            <span class="close-shopping">&#10539;</span>
+            <ul id="product-list">
+               
+            </ul>
+            <div class="the-total-price" dir="ltr">
+                <div class="check-out">check out</div>
+                <div class="total">
+                    <h2>total : <span class="total-numper">$0</span></h2>
+                </div>
+            </div><!-- ./the-total-price -->
+        </div><!-- ./shopping-page -->
+
+        <script src="js/aos.js"></script>
+        <script src="js/main-js.js"></script>
+    </body>
+</html>
+

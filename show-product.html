@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>show product</title>
+        <link rel="stylesheet" href="css/e-commerce.css">
+        <link rel="stylesheet" href="css/show-product.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/hover-min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        
+    <header> <!-- start header -->
+            
+        <div class="header-content"> <!-- header-content -->
+
+            <div>
+                <a href="index.html"> <img src="images/logo.png" alt="logo" class="logo"></a>
+            </div>
+
+
+            <div class="nav-list-icon ">
+                <span class="material-icons">
+                    reorder
+                </span>
+            </div>
+
+                <ul class="list-unstyled">
+                    <div class="close-list">
+                        <span class="material-icons">
+                            close
+                        </span>
+                    </div>
+
+                    <li class="link-item dropdowen">
+                        <a href="#">furniture</a>
+                        <div class="dropdowen-mnue">
+                            <ul>
+                                <li class="hvr-buzz-out"><a href="#">armoires</a></li>
+                                <li><a href="#" class="hvr-pulse">study table</a></li>
+                                <li><a href="#" class="hvr-pulse">plastic chair</a></li>
+                                <li><a href="#" class="hvr-pulse">wardrobes</a></li>
+                            </ul>
+                            <ul>
+                                <li class="hvr-buzz-out"><a href="#">armoires</a></li>
+                                <li><a href="#" class="hvr-pulse">study table</a></li>
+                                <li><a href="#" class="hvr-pulse">plastic chair</a></li>
+                                <li><a href="#" class="hvr-pulse">wardrobes</a></li>
+                            </ul>
+                            <ul>
+                                <li class="hvr-buzz-out"><a href="#">armoires</a></li>
+                                <li><a href="#" class="hvr-pulse">study table</a></li>
+                                <li><a href="#" class="hvr-pulse">plastic chair</a></li>
+                                <li><a href="#" class="hvr-pulse">wardrobes</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="link-item"><a href="#">armoires</a></li>
+                    <li class="link-item"><a href="#">study table</a></li>
+                    <li class="link-item"><a href="#">plastic chair</a></li>
+                    <li class="link-item"><a href="#">wardrobes</a></li>
+                    <li class="link-item"><a href="#">more</a></li>
+                </ul><!-- ./list-unstyled --> 
+
+                <div class="login">
+                    <ul class="login-list">
+                        <li class="li-search">
+                            <div class="search-input">
+                                <input type="text" placeholder="write here to search">
+                            </div><!-- ./search-input -->
+                            <i class="fa fa-search fa-2x hvr-wobble-top search-icon"></i>
+                        </li>
+                        <li><i class="fa fa-user-o fa-2x" aria-hidden="true"></i></li>
+                        <li class=" hvr-wobble-horizontal"><i id="card" class="fa fa-shopping-basket fa-2x" aria-hidden="true">
+                            <span id="product-counter">0</span>
+                        </i></li>
+                    </ul>
+                </div> <!-- ./ login-->
+            
+
+    </div><!-- ./header-content -->
+
+            
+
+    </header> <!-- ./header -->
+
+
+        <section class="show-product">
+            <div class="container sec-padding">
+                <div class="row ">
+                    <div class="show-img">
+                        <div class="img-box">
+                            <img id="img-boxs" src=""  alt="">
+                        </div><!-- ./img-box -->
+                        <div class="all-img justify-content align-items-center ">
+                           <div>
+                                <img id="product-img" src="images/chair1.jpg" alt="">
+                           </div>
+                           <div>
+                                <img id="product-img" src="images/chair2.jpg" alt="">
+                           </div>
+                            <div>
+                                <img id="product-img" src="images/chair5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div><!-- ./show-img -->
+
+                    <div class="show-info">
+                        <div class="info-header">
+                            <h2>Fitted Small Lion Pique Polo</h2>
+                            <ul class="star star1  align-items-center">
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star-half-o"></i></li>
+                            </ul><!-- ./star -->
+                            <p>In stock <span>(34 items available)</span></p>
+                            <strong class="price">$29.74</strong>
+                        </div>
+                        <ul class="info-list">
+                            <li>Cut slimmer through the shoulders, chest and waist</li>
+                            <li>Ribbed collar, 2-button placket, short sleeves</li>
+                            <li>Drop hem, side vents with contrast grosgrain inset</li>
+                            <li>Cotton</li>
+                            <li>Machine wash</li>
+                            <li>Imported</li>
+                        </ul>
+                        <div class="stting-product">
+                           <div class="test">
+                                <h3>Color</h3>
+                                <select  id="color">
+                                    <option>red</option>
+                                    <option>green</option>
+                                </select>
+                           </div>
+                           <div class="test">
+                                <h3>size</h3>
+                                <select  id="size">
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                    <option>XL</option>
+                                </select>
+                           </div>
+                            <div class="buy-product ">
+                                <div class="Quantity">
+                                    <span>Quantity</span>
+                                    <input type="number" value="1">
+                                </div>
+                                <button id="add-to-cart">Add to cart</button>
+                            </div>
+                        </div>
+                    </div><!-- ./show-info -->
+                </div><!-- ./row -->
+            </div><!-- ./container -->
+        </section><!-- ./show-product -->
+
+
+      
+
+    <footer>
+        <div class="logo-footer">
+            <img src="images/footer-logo.png" alt="">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dicta distinctio velit iste minus quos quas maxime atque ipsum molestias itaque fugiat voluptatum cum quibusdam fugit, asperiores possimus cumque unde!
+            </p>
+            <img src="images/cms-footer-1.png" alt="">
+            <img src="images/cms-footer-2.png" alt="">
+        </div><!-- ./logo -->
+
+        <ul class="list-footer">
+            <h3>information</h3>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">delivery information</a></li>
+            <li><a href="#">privacy</a></li>
+            <li><a href="#">terms & conditlons</a></li>
+            <li><a href="#">site map</a></li>
+        </ul><!-- ./list-footer 1 -->
+
+        <ul class="list-footer">
+            <h3>my account</h3>
+            <li><a href="#">my account</a></li>
+            <li><a href="#">prder history</a></li>
+            <li><a href="#">wish list</a></li>
+            <li><a href="#">newseletter</a></li>
+            <li><a href="#">relurns</a></li>
+        </ul><!-- ./list-footer 2 -->
+
+        <div class="subscribe">
+            <h3>subscribe now</h3>
+            <div class="email">
+                <input type="email" placeholder="Enter Your Email">
+                <i class="fa fa-paper-plane-o"></i>
+            </div><!-- ./email -->
+            <ul class="icon-footer">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul><!-- ./icon-footer -->
+
+        </div><!-- ./subscribe -->
+
+    </footer>     
+
+
+         <!-- create shopping card page -->
+         <div class="shopping-page" dir="rtl">
+            <span class="close-shopping">&#10539;</span>
+            <ul id="product-list">
+               
+            </ul>
+            <div class="the-total-price" dir="ltr">
+                <div class="check-out">check out</div>
+                <div class="total">
+                    <h2>total : <span class="total-numper">$0</span></h2>
+                </div>
+            </div><!-- ./the-total-price -->
+        </div><!-- ./shopping-page -->
+ 
+
+        <script src="js/aos.js"></script>
+        <script src="js/main-js.js"></script>
+        <script src="js/showProduct.js"></script>
+    </body>
+</html>
